@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="App1.ProgramInfo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="LightCyan">
+        <TextBox x:Name="textBoxTitle" BorderThickness="0" Background ="LightCyan" TextAlignment="center" HorizontalAlignment="Center" Margin="36,176,129,0" TextWrapping="Wrap" Text="Program Information Page" VerticalAlignment="Top" Height="61" Width="195" FontSize="20" IsReadOnly="True" FontWeight="Bold" FontStyle="Italic"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="10,16,0,0" VerticalAlignment="Top" Width="340" Source="http://www.rasmussen.edu/images/logo-internal.png" RenderTransformOrigin="0.517,1.137"/>
+        <Button x:Name="buttonHome" Background="Bisque" Content="Home" HorizontalAlignment="Left" Margin="5,102,0,0" VerticalAlignment="Top" Height="33" Width="81" Click="buttonHome_Click"/>
+        <TextBox x:Name="txtBoxFooter" HorizontalAlignment="Left" Margin="41,600,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="271" BorderBrush="#FFFDFDFD" IsReadOnly="True"/>
+        <TextBox x:Name="txtBoxDegreeCredits" BorderThickness="0" Background="Moccasin" HorizontalAlignment="Center" Margin="10,282,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="313" Width="340"/>
+    </Grid>
+</Page>

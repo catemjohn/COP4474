@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="App1.Faculty"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="LightCyan">
+        <TextBox x:ConnectionId='1' x:Name="textBoxTitle" BorderThickness="0" Background ="LightCyan" TextAlignment="center" HorizontalAlignment="Left" Margin="86,121,0,0" TextWrapping="Wrap" Text="Technology Media" VerticalAlignment="Top" Height="39" Width="195" FontSize="20" FontStyle="Italic" IsReadOnly="True" FontWeight="Bold"/>
+        <Button x:ConnectionId='2' x:Name="buttonHome" Background="Bisque" Content="Home" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" Height="33" Width="81"                         />
+        <Image x:ConnectionId='3' x:Name="image" HorizontalAlignment="Left" Height="100" Margin="10,16,0,0" VerticalAlignment="Top" Width="340" Source="http://www.rasmussen.edu/images/logo-internal.png" RenderTransformOrigin="0.517,1.137"/>
+        
+        <TextBox x:ConnectionId='4' x:Name="txtBoxFooter" HorizontalAlignment="Left" Margin="41,600,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="271" BorderBrush="#FFFDFDFD" IsReadOnly="True"/>
+        <HyperlinkButton NavigateUri="https://www.ted.com/topics/technology" Content="TedTalks Technology"  HorizontalAlignment="Left" Margin="86,207,0,0" VerticalAlignment="Top"/>
+        <HyperlinkButton NavigateUri="http://www.rasmussen.edu/degrees/technology/computer-science/" Content="Rasmussen College Computer Science" HorizontalAlignment="Left" Margin="86,244,0,0" VerticalAlignment="Top"/>
+        <HyperlinkButton NavigateUri="https://github.com/" Content="GitHub" HorizontalAlignment="Left" Margin="86,281,0,0" VerticalAlignment="Top"/>
+        <HyperlinkButton NavigateUri="https://see.stanford.edu/" Content="Stanford Engineering Everywhere" HorizontalAlignment="Left" Margin="86,318,0,0" VerticalAlignment="Top"/>
+        <HyperlinkButton NavigateUri="http://www.w3schools.com/" Content="W3Schools" HorizontalAlignment="Left" Margin="86,175,0,0" VerticalAlignment="Top"/>
+        <HyperlinkButton NavigateUri="https://ocw.mit.edu/courses/#electrical-engineering-and-computer-science" Content="MIT OpenCourseWare" HorizontalAlignment="Left" Margin="86,355,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+
