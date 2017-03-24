@@ -8,14 +8,16 @@
     mc:Ignorable="d">
 
     <Grid Background="Moccasin">
-        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="10,16,0,0" VerticalAlignment="Top" 
+       <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="10,16,0,0" VerticalAlignment="Top" 
                Width="340" Source="http://www.rasmussen.edu/images/logo-internal.png" RenderTransformOrigin="0.517,1.137"/>
-       <!--<TextBox x:Name="textBoxTitle" BorderThickness="0" Background ="" HorizontalAlignment="Center" Margin="41,243,0,0" TextWrapping="Wrap" Text=" Rasmussen College's Bachelor of Computer Science" VerticalAlignment="Top" Height="76" Width="340" FontSize="20" FontWeight="Bold" IsReadOnly="True" />
-        -->
+       
+        <!--<TextBox x:Name="textBoxTitle" BorderThickness="0" Background ="" HorizontalAlignment="Center" Margin="41,243,0,0" TextWrapping="Wrap" Text=" Rasmussen College's Bachelor of Computer Science" VerticalAlignment="Top" Height="76" Width="340" FontSize="20" FontWeight="Bold" IsReadOnly="True" />
+       --> 
         <Button x:Name="buttonCourses" Background="MediumSlateBlue" Content="CS Courses" HorizontalAlignment="Left" Margin="41,243,0,0" VerticalAlignment="Top" Click="buttonCourses_Click" Height="32"/>
         <Button x:Name="buttonFaculty" Background="LightSkyBlue" Content="Technology Media" HorizontalAlignment="Left" Margin="41,306,0,0" VerticalAlignment="Top" Height="35" Width="165" Click="buttonFaculty_Click"/>
         <Button x:Name="buttonProgram" Background="MediumAquamarine" Content="Program Information" HorizontalAlignment="Left" Margin="41,380,0,0" VerticalAlignment="Top" Height="40" Width="165" Click="buttonProgram_Click"/>
-        <Button x:Name="buttonModule4" Background="LawnGreen" Content="Program Information" HorizontalAlignment="Left" Margin="41,454,0,0" VerticalAlignment="Top" Height="40" Width="165" Click="buttonModule4_Click"/>
+        <Button x:Name="buttonModule4" Background="LawnGreen" Content="Todo List" HorizontalAlignment="Left" Margin="41,454,0,0" VerticalAlignment="Top" Height="40" Width="165" Click="buttonModule4_Click"/>
+        <Button x:Name="buttonUserAuth" Background="Coral" Content="User Authentication" HorizontalAlignment="Left" Margin="41,528,0,0" VerticalAlignment="Top" Height="40" Width="165" Click="buttonUserAuth_Click"/>
 
         <TextBox x:Name="txtBoxFooter" Foreground="Black" HorizontalAlignment="Left" Margin="41,600,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="271" BorderBrush="#FFFDFDFD" IsReadOnly="True"/>
 

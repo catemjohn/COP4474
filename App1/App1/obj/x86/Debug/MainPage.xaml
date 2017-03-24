@@ -8,10 +8,11 @@
     mc:Ignorable="d">
 
     <Grid Background="Moccasin">
-        <Image x:ConnectionId='1' x:Name="image" HorizontalAlignment="Left" Height="100" Margin="10,16,0,0" VerticalAlignment="Top" 
+       <Image x:ConnectionId='1' x:Name="image" HorizontalAlignment="Left" Height="100" Margin="10,16,0,0" VerticalAlignment="Top" 
                Width="340" Source="http://www.rasmussen.edu/images/logo-internal.png" RenderTransformOrigin="0.517,1.137"/>
-       <!--<TextBox x:Name="textBoxTitle" BorderThickness="0" Background ="" HorizontalAlignment="Center" Margin="41,243,0,0" TextWrapping="Wrap" Text=" Rasmussen College's Bachelor of Computer Science" VerticalAlignment="Top" Height="76" Width="340" FontSize="20" FontWeight="Bold" IsReadOnly="True" />
-        -->
+       
+        <!--<TextBox x:Name="textBoxTitle" BorderThickness="0" Background ="" HorizontalAlignment="Center" Margin="41,243,0,0" TextWrapping="Wrap" Text=" Rasmussen College's Bachelor of Computer Science" VerticalAlignment="Top" Height="76" Width="340" FontSize="20" FontWeight="Bold" IsReadOnly="True" />
+       --> 
         <Button x:ConnectionId='2' x:Name="buttonCourses" Background="MediumSlateBlue" Content="CS Courses" HorizontalAlignment="Left" Margin="41,243,0,0" VerticalAlignment="Top"                             Height="32"/>
         <Button x:ConnectionId='3' x:Name="buttonFaculty" Background="LightSkyBlue" Content="Technology Media" HorizontalAlignment="Left" Margin="41,306,0,0" VerticalAlignment="Top" Height="35" Width="165"                            />
         <Button x:ConnectionId='4' x:Name="buttonProgram" Background="MediumAquamarine" Content="Program Information" HorizontalAlignment="Left" Margin="41,380,0,0" VerticalAlignment="Top" Height="40" Width="165"                            />

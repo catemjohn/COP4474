@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>a471950a-d75a-4afd-a9f5-0e693d0d9cf0</PackageIdentityName>
     <PackageIdentityPublisher>CN=Cate</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Cate\documents\visual studio 2015\Projects\App1\App1\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Cate\Documents\Visual Studio 2015\Projects\App1\App1\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Cate\documents\visual studio 2015\Projects\App1\App1\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Cate\Documents\Visual Studio 2015\Projects\App1\App1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-21T06:07:13.531</Modified>
+      <Modified>2017-03-21T18:15:27.720</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Cate\documents\visual studio 2015\Projects\App1\App1\bin\x86\Debug\App1.exe">
+    <AppxPackagedFile Include="C:\Users\Cate\Documents\Visual Studio 2015\Projects\App1\App1\bin\x86\Debug\App1.exe">
       <PackagePath>entrypoint\App1.exe</PackagePath>
-      <Modified>2017-03-21T06:07:12.811</Modified>
+      <Modified>2017-03-21T18:15:25.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cate\.nuget\packages\Microsoft.Azure.Mobile.Client\3.1.0\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
@@ -468,45 +468,45 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-23T06:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cate\documents\visual studio 2015\Projects\App1\App1\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Cate\Documents\Visual Studio 2015\Projects\App1\App1\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-01-11T06:24:12.006</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cate\documents\visual studio 2015\Projects\App1\App1\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Cate\Documents\Visual Studio 2015\Projects\App1\App1\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cate\documents\visual studio 2015\Projects\App1\App1\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Cate\Documents\Visual Studio 2015\Projects\App1\App1\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cate\documents\visual studio 2015\Projects\App1\App1\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Cate\Documents\Visual Studio 2015\Projects\App1\App1\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cate\documents\visual studio 2015\Projects\App1\App1\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Cate\Documents\Visual Studio 2015\Projects\App1\App1\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cate\documents\visual studio 2015\Projects\App1\App1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Cate\Documents\Visual Studio 2015\Projects\App1\App1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cate\documents\visual studio 2015\Projects\App1\App1\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Cate\Documents\Visual Studio 2015\Projects\App1\App1\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cate\documents\visual studio 2015\Projects\App1\App1\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Cate\Documents\Visual Studio 2015\Projects\App1\App1\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cate\documents\visual studio 2015\Projects\App1\App1\bin\x86\Debug\App1.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Cate\Documents\Visual Studio 2015\Projects\App1\App1\bin\x86\Debug\App1.xr.xml">
       <PackagePath>App1.xr.xml</PackagePath>
       <Modified>2017-03-21T06:04:46.871</Modified>
     </AppxPackagedFile>
@@ -514,13 +514,13 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-01-11T06:13:12.598</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cate\documents\visual studio 2015\Projects\App1\App1\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Cate\Documents\Visual Studio 2015\Projects\App1\App1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2017-03-21T06:07:13.292</Modified>
+      <Modified>2017-03-21T18:15:27.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Cate\documents\visual studio 2015\Projects\App1\App1\bin\x86\Debug\Core\App1.exe">
+    <AppxPackagedFile Include="C:\Users\Cate\Documents\Visual Studio 2015\Projects\App1\App1\bin\x86\Debug\Core\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2017-03-21T06:07:13.527</Modified>
+      <Modified>2017-03-21T18:15:27.711</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
