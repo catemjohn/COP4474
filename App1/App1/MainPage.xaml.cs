@@ -57,10 +57,7 @@ namespace App1
             Frame.Navigate(typeof(Module4), null);
         }
         //Button Link to the User auth page
-        private void buttonUserAuth_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(UserAuth), null);
-        }
+       
 
     }
 }

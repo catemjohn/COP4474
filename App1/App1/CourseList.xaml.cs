@@ -17,15 +17,18 @@ using Windows.UI.Xaml.Navigation;
 
 namespace App1
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+    
     public sealed partial class CourseList : Page
     {
         public CourseList()
         {
             this.InitializeComponent();
             txtBoxFooter.Text = BL_PageContent.CreatedBy;
+        }
+
+        private void buttonHome_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage), null);
         }
         //variable used to determine which course was selected
         string parameter;
@@ -49,11 +52,6 @@ namespace App1
 
         }
         
-
-        private void buttonHome_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(MainPage), null);
-        }
 
         private void btnCIS3801_Click(object sender, RoutedEventArgs e)
         {

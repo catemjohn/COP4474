@@ -30,14 +30,13 @@ using Microsoft.WindowsAzure.MobileServices.SQLiteStore;
 
 namespace App1
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+    
     public sealed partial class UserAuth : Page
     {
         public UserAuth()
         {
             this.InitializeComponent();
+            //txtBoxFooter.Text = BL_PageContent.CreatedBy;
         }
 
 
@@ -105,6 +104,7 @@ namespace App1
                 {
                     var dialog = new MessageDialog("You are Authenticated");
                     await dialog.ShowAsync();
+                    Frame.Navigate(typeof(MainPage), null);
 
                 }
                 else
@@ -147,6 +147,10 @@ namespace App1
             InitLocalStoreAsync();
         }
 
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
 
     }
 }

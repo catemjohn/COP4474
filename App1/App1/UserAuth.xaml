@@ -7,16 +7,20 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBox x:Name="txtBoxUserAuth" Text="User Authentication" HorizontalAlignment="Left" BorderThickness="0" FontSize="20" Margin="139,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" IsReadOnly="True"/>
-        <TextBox x:Name="txtBoxUserId" HorizontalAlignment="Left" Margin="139,197,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148"/>
-        <TextBox x:Name="lblUserID" HorizontalAlignment="Left" Margin="50,197,0,0" TextWrapping="Wrap" Text="UserID:" VerticalAlignment="Top" IsReadOnly="True" BorderBrush="#FFFDF9F9"/>
-        <TextBox x:Name="lblPasswd" HorizontalAlignment="Left" Margin="34,242,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" BorderBrush="#FFF9F9F9" IsReadOnly="True"/>
-        <TextBox x:Name="txtBoxPasswd" HorizontalAlignment="Left" Margin="139,242,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148"/>
-        <Button x:Name="btnSubmit" Content="Login" HorizontalAlignment="Left" Margin="215,295,0,0" VerticalAlignment="Top" Click="btnSubmit_Click"/>
-        <Button x:Name="btnRegister" Content="Register" HorizontalAlignment="Left" Margin="215,343,0,0" VerticalAlignment="Top" Click="btnRegister_Click"/>
-        <Button x:Name="btnSync" Content="Sync DB" HorizontalAlignment="Left" Margin="215,388,0,0" VerticalAlignment="Top" Click="btnSync_Click"/>
+    <Grid Background="Moccasin">
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="10,16,0,0" VerticalAlignment="Top" Width="340" Source="http://www.rasmussen.edu/images/logo-internal.png" RenderTransformOrigin="0.517,1.137"/>
+        <TextBox x:Name="textBox" BorderThickness="0" Background="Moccasin" HorizontalAlignment="Left" Margin="41,135,0,0" TextWrapping="Wrap" Text="User Authentication" VerticalAlignment="Top" IsReadOnly="True" FontSize="20" FontWeight="Bold" />
+        
+        <TextBox x:Name="txtBoxUserId" HorizontalAlignment="Left" Margin="141,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="lblUserID" HorizontalAlignment="Left" Margin="41,185,0,0" TextWrapping="Wrap" Text="UserID:" VerticalAlignment="Top" IsReadOnly="True" BorderBrush="#FFFDF9F9"/>
+        <TextBox x:Name="lblPasswd" HorizontalAlignment="Left" Margin="41,237,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" BorderBrush="#FFF9F9F9" IsReadOnly="True"/>
+        <TextBox x:Name="txtBoxPasswd" HorizontalAlignment="Left" Margin="141,237,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148"/>
+        <Button x:Name="btnSubmit" Content="Login" HorizontalAlignment="Left" Margin="232,274,0,0" VerticalAlignment="Top" Click="btnSubmit_Click"/>
+        <Button x:Name="btnRegister" Content="Register" HorizontalAlignment="Left" Margin="113,357,0,0" VerticalAlignment="Top" Click="btnRegister_Click"/>
+        <Button x:Name="btnSync" Content="Sync DB" HorizontalAlignment="Left" Margin="215,357,0,0" VerticalAlignment="Top" Click="btnSync_Click"/>
 
+        <!--<TextBox x:Name="txtBoxFooter" BorderThickness ="0" HorizontalAlignment="Left" Margin="41,600,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="271" BorderBrush="#FFFDFDFD" IsReadOnly="True"/>
+-->
 
     </Grid>
 </Page>

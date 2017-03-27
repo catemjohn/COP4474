@@ -33,8 +33,13 @@ namespace App1
         public Module4()
         {
             this.InitializeComponent();
+            txtBoxFooter.Text = BL_PageContent.CreatedBy;
         }
 
+        private void buttonHome_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage), null);
+        }
         IMobileServiceTable<TodoItem> todoTable = App.MobileService.GetTable<TodoItem>();
         MobileServiceCollection<TodoItem, TodoItem> items;
 

@@ -7,11 +7,14 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-       
-        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="227,135,0,0" VerticalAlignment="Top" Click="Submit_Click"/>
-        <TextBox x:Name="txtBoxItem" HorizontalAlignment="Left" Margin="62,135,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="143"/>
-        <Button x:Name="btnRefresh" Content="Refresh" HorizontalAlignment="Left" Margin="62,190,0,0" VerticalAlignment="Top" Click="btnRefresh_Click_1"/>
+    <Grid Background="Moccasin">
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="10,16,0,0" VerticalAlignment="Top" Width="340" Source="http://www.rasmussen.edu/images/logo-internal.png" RenderTransformOrigin="0.517,1.137"/>
+
+        <TextBox x:Name="textBox" BorderThickness="0" Background="Moccasin" HorizontalAlignment="Left" Margin="62,128,0,0" TextWrapping="Wrap" Text="To-Do List" VerticalAlignment="Top" IsReadOnly="True" FontSize="20" FontWeight="Bold" />
+
+        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="245,180,0,0" VerticalAlignment="Top" Click="Submit_Click"/>
+        <TextBox x:Name="txtBoxItem" HorizontalAlignment="Left" Margin="62,180,0,0" TextWrapping="Wrap" Text="Enter To-do Item" VerticalAlignment="Top" Width="143"/>
+        <Button x:Name="btnRefresh" Content="Refresh List" HorizontalAlignment="Left" Margin="62,230,0,0" VerticalAlignment="Top" Click="btnRefresh_Click_1" RenderTransformOrigin="0.493,-1.625"/>
 
 
         <ListView Name="ListItems" Margin="62,348,155,63">
@@ -23,6 +26,9 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Button x:Name="buttonHome" Background="LightGray" Content="Home" HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top" Height="33" Width="81" Click="buttonHome_Click"/>
+        <TextBox x:Name="txtBoxFooter" BorderThickness ="0" HorizontalAlignment="Left" Margin="41,600,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="271" BorderBrush="#FFFDFDFD" IsReadOnly="True"/>
+
 
     </Grid>
 </Page>
